@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+void movesZeroArray(int nums[], int n){
+    int k=0;
+    for(int i=0; i<n; i++){
+        if(nums[i]!=0){
+            nums[k]=nums[i];
+            k++;
+        }
+    }
+    for(int i=k; i<n; i++){
+        nums[i]=0;
+    }
+}
+int main(){
+    int n;
+    cin>>n;
+    int nums[n];
+    for(int i=0; i<n; i++){
+        cin>>nums[i];
+    }
+    movesZeroArray(nums,n);
+    for(int i=0; i<n; i++){
+        cout<<nums[i]<<" ";
+    }
+    return 0;
+}
