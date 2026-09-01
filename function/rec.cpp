@@ -9,6 +9,7 @@ void print(){
     cnt++;
     print();
 }
+
 int main(){
     print();
     return 0;
