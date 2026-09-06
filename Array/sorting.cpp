@@ -15,6 +15,9 @@ void selectionSort(int nums[], int n) {
         }
 
         swap(nums[i], nums[minIndex]);
+        // int temp = nums[minIndex];
+        // nums[minIndex] = nums[i];
+        // nums[i] = temp;
     }
 }
 

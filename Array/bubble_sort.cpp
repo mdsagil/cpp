@@ -32,7 +32,7 @@ void bubble_sortArray(int nums[],int n){
                 swapped=true;
             }
         }
-        if(swapped=false){
+        if(swapped==false){
             break;
         }
     }

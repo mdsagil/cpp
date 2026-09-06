@@ -9,7 +9,7 @@ void insertion_sortArray(int nums[], int n) {
 
         while(j >= 0 && nums[j] > key) {
             nums[j + 1] = nums[j];
-            j--;   // semicolon added
+            j--;   // 
         }
 
         nums[j + 1] = key;
